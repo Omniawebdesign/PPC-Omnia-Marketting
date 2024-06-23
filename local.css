@@ -1799,8 +1799,15 @@ font-family: 'PT Sans', sans-serif;
 
 .cs-topper{
     font-family: poppinsreg;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 0.35em ;
+}
+
+
+@media only screen and (min-width: 369px) {
+   .cs-topper {
+        font-size:35px
+    }
 }
 
 
