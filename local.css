@@ -1796,17 +1796,17 @@ font-family: 'PT Sans', sans-serif;
 
 
 
-
+@media only screen and (min-width: 400px) {
 .cs-topper{
     font-family: poppinsreg;
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 0.35em ;
 }
+}
 
-
-@media only screen and (min-width: 369px) {
+@media only screen and (min-width: 0px) {
    .cs-topper {
-        font-size:35px
+        font-size:20px
     }
 }
 
